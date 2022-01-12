@@ -1,7 +1,14 @@
+import { Heading } from '../../components/Heading';
+import * as Styled from './styles';
+
+
 function Home() {
   return (
     <div className="App">
-      <h1>Hello Vini</h1>
+      <Styled.Wrapper>
+        <Heading>Ola</Heading>
+      </Styled.Wrapper>
+
     </div>
   );
 }
