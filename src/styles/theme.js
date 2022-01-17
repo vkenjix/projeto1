@@ -2,7 +2,8 @@ export const theme = {
   colors: {
     primaryColor: '#0A1128',
     secondaryColor: '#dc143c',
-    white: '#FFFFFF'
+    white: '#FFFFFF',
+    mediumGray: '#DDDDDD',
   },
 
   font: {
@@ -18,10 +19,20 @@ export const theme = {
       xlarge: '4.0rem',
       xxlarge: '4.8rem',
       huge: '5.6rem',
-      xhuge: '6.4rem'
+      xhuge: '6.4rem',
     },
   },
   medias: {
     lteMedio: '(max-width: 768px)',
+  },
+  spacings: {
+    xsmall: '8rem',
+    small: '1.6rem',
+    medium: '2.4rem',
+    large: '3.2rem',
+    xlarge: '4.0rem',
+    xxlarge: '4.8rem',
+    huge: '5.6rem',
+    xhuge: '6.4rem',
   },
 };
